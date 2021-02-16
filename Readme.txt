@@ -1,10 +1,20 @@
-We can implement c extension in python.
 
-1. Write C functions in *.c file(test.c) and write one structure for those functions. Initialise the our module in the same file.
+Binary Search :-
 
-2. Create setup.py file(python3 setup.py build_ext --inplace) and mention the *.c extension file in that with and module name that you want to use.
+Search a sorted array by repeatedly dividing the search interval in half.
+Begin with an interval covering the whole array.
+If the value of the search key is less than the item in the middle of the interval,
+narrow the interval to the lower half. Otherwise narrow it to the upper half.
+Repeatedly check until the value is found or the interval is empty.
 
-3. Create on python file which will use the module created in step 2 and call the functions writen in *.c file.
+The time complexity of Binary Search can be written as
 
-4. Run the python file created in step 3.
+T(n) = T(n/2) + c
+
+
+Sequential Search :-
+
+Sequential Search is the most natural searching method.
+In this method, the searching begins with searching every element of the list till the required record is found.
+It makes no demands on the ordering of records. It takes considerably amount of time and is slower.
 

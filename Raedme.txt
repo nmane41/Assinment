@@ -1,0 +1,13 @@
+Sorting can be achieved with different algorithms. Here we have demonstrated bubble sort and quick sort algorithms.
+
+Bubble Sort :-
+The simplest sorting algorithm. It involves the sorting the list in a repetitive fashion.
+It compares two adjacent elements in the list, and swaps them if they are not in the designated order.
+It continues until there are no swaps needed. This is the signal for the list that is sorted.
+It is also called as comparison sort as it uses comparisons.
+
+Quick Sort :-
+The best sorting algorithm which implements the ‘divide and conquer’ concept.
+It first divides the list into two parts by picking an element a ’pivot’.
+It then arranges the elements those are smaller than pivot into one sub list and
+the elements those are greater than pivot into one sub list by keeping the pivot in its original place.
